@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Face Recognition Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+
+  <body style=background-color:green;>
+  <div class="container">
+    
+    <center>
+      <h1 class="btn- btn-sucsess heading">Image Recognition</h1>
+      <br><br>
+
+      <p style="font-size: 22px; color:fuchsia; font-family:'Times New Roman', Times, serif">Model is trained to identify the following objects: </p>
+      <b class="objects">
+        <div style="button-width: 500px">
+        <button style="background-color: teal;">Father</button>
+        <hr class="line-color">
+        <button style="background-color:teal;">Mother</button>
+        <hr class="line-color">
+        <button style="background-color:teal;">Brother</button>
+        <hr class="line-color">
+        <button style="background-color:teal;">Sister</button>
+        <hr class="line-color">
+        </div>
+      </b>
+      <label style="color:fuchsia; font-size: 22px; font-family:'Times New Roman', Times, serif">Webcam View - </label>
+      <div id="camera"></div>
+      <br><br>
+      <div id="result"></div>
+      <br><br>
+      <button class="btn" style="font-family: 'Times New Roman', Times, serif; color: rgb(204, 0, 255); background-color: goldenrod; font-size: 24px;" onclick="take_snapshot()">capture-img</button>
+      <br><br>
+
+      <br><br>
+
+      <p style="font-size: 22px;">Object :  </p>
+      <p style="font-size: 22px;">Accuracy :  </p>
+    </center>
+
+  </div>
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 

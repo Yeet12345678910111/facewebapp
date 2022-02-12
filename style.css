@@ -1,0 +1,25 @@
+.heading{
+    width: 70%;
+    font-size: 24px;
+    color: silver;
+}
+.objects{
+    font-size: 20px;
+    color: silver;
+}
+body{
+   background-color:green;
+   
+}
+#camera{
+    border: 3px dashed grey;
+    width: 350px;
+    height: 350px;
+}
+.line-color{
+    border-top: 3px teal;
+}
+.button{
+    background-color: teal;
+    
+}
